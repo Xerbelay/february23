@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>23 Февраля - День Защитника Отечества: История, Герои, Поздравления</title>
+    <meta name="description" content="История и традиции празднования Дня Защитника Отечества. Герои России, легендарная техника, поздравления и интересные факты о 23 февраля.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Roboto', sans-serif; /* Более современный шрифт */
+            overflow-x: hidden;
+        }
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/1.jpg') no-repeat center center/cover; /*  заменил на изображение, связанное с военной тематикой*/
+            height: 600px; /*увеличенная высота*/
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem; /*увеличенный размер шрифта*/
+            font-weight: bold;
+            text-align: center;
+            padding: 50px;
+            animation: fadeIn 2s;
+            text-shadow: 2px 2px 4px #000000; /*тень для текста*/
+        }
+        .hero p {
+          font-size: 1.2rem;
+          font-weight: normal;
+          margin-top: 20px;
+          text-shadow: 1px 1px 2px #000000;
+          color: #ffffff;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: rgba(33, 37, 41, 0.9) !important; /* полупрозрачный фон */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* добавляем тень */
+        }
+        .navbar-brand {
+            font-size: 1.75rem; /*увеличенный размер шрифта*/
+            font-weight: bold;
+            color: #fff !important;
+        }
+        .nav-link {
+            color: #fff !important;
+            font-size: 1.1rem;
+            padding: 0.75rem 1.25rem !important; /*увеличенные отступы*/
+        }
+        .nav-link:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
+            color: #ffc107 !important; /* Золотистый цвет при наведении */
+        }
+
+        /* Button Styles */
+        .btn {
+            background-color: #dc3545 !important;
+            border-color: #dc3545 !important;
+            color: white !important;
+            font-weight: bold;
+            padding: 0.75rem 1.5rem !important; /*увеличенные отступы*/
+        }
+        .btn:hover {
+            background-color: #c82333 !important;
+            border-color: #c82333 !important;
+            transition: 0.3s;
+        }
+
+        /* Fade In Animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s forwards;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* History Section */
+        #history {
+            padding: 1rem 1rem 1rem;
+            background-color: #e9ecef;
+        }
+        #history h2 {
+            color: #343a40;
+            margin-bottom: 1.5rem;
+        }
+        #history p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        /* Carousel Styles */
+        #carouselHeroes {
+            padding: 3rem 0;
+        }
+        #carouselHeroes h2 {
+            color: #343a40;
+            margin-bottom: 1.5rem;
+        }
+        .carousel-item img {
+            max-height: 600px; /*Ограничение высоты изображений*/
+            object-fit: cover; /*Обрезать изображения, чтобы заполнить контейнер*/
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        /* Tanks Section */
+        #tanks {
+            padding: 3rem 0;
+            background-color: #f0f0f0;
+        }
+        #tanks h2 {
+            color: #343a40;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Wishes Section */
+        #wishes {
+            padding: 3rem 0;
+        }
+        #wishes h2 {
+            color: #343a40;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        /* Custom styles for better readability */
+        .container {
+            max-width: 1200px; /* set a maximum width for the container */
+        }
+
+        /* Section headings */
+        h2 {
+            font-size: 2.25rem; /* Slightly larger headings */
+            font-weight: bold;
+            color: #333; /* A darker shade for headings */
+        }
+
+        /* Paragraph text */
+        p {
+            font-size: 1.1rem; /* Increased font size for better readability */
+            line-height: 1.7; /* Improved line height for comfortable reading */
+            color: #555; /* A softer shade for the text */
+        }
+        .white{
+            color: grey;
+        }
+        .white2{
+            color: #ffffff;
+            font-weight: 400;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">День Защитника Отечества</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#history">История</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#heroes">Герои</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tanks">Техника</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#wishes">Поздравления</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero fade-in">
+        <h1>С Днем Защитника Отечества!</h1>
+        <p>Честь, слава и мужество — вечные ценности! Защитникам Родины посвящается...</p>
+        <a href="#history" class="btn btn-light btn-lg">Узнать больше об истории праздника</a>
+    </div>
+
+    <div class="container mt-5 fade-in pad" id="history">
+        <h2 class="text-center">История праздника 23 февраля</h2>
+        <p>
+            День Защитника Отечества, отмечаемый 23 февраля, — это праздник, который символизирует мужество, честь и преданность Родине.  История этого дня начинается в далеком 1918 году, в период тяжелых испытаний для молодой Советской республики.  28 января (15 января по старому стилю) 1918 года Совет народных комиссаров принял Декрет о создании Рабоче-Крестьянской Красной Армии (РККА). Это решение было вызвано необходимостью защиты страны от внешних врагов в условиях Первой мировой войны и надвигающейся гражданской войны.
+        </p>
+        <p>
+          Первое официальное празднование Дня Красной Армии состоялось 23 февраля 1919 года. Этот день был приурочен к годовщине первых боев РККА против немецких войск под Псковом и Нарвой. Хотя историки спорят о значимости этих боев, именно эта дата закрепилась в сознании людей как день рождения Красной Армии.  В дальнейшем, в советский период, праздник носил название Дня Советской Армии и Военно-Морского Флота и отмечался с большим размахом. Проводились военные парады, концерты, организовывались торжественные собрания и вручались награды. 23 февраля стало символом героизма и самоотверженности советских воинов, защищавших страну в годы Великой Отечественной войны и в других вооруженных конфликтах.
+        </p>
+        <p>
+            После распада СССР праздник был переименован в День Защитника Отечества.  Сегодня это день, когда мы чествуем всех мужчин, независимо от их профессии и возраста, которые готовы встать на защиту своей страны, своей семьи и своих близких.  Это день памяти о героическом прошлом нашей Родины и день уважения к тем, кто сейчас несет службу в рядах Вооруженных Сил Российской Федерации.
+        </p>
+        <p>
+            День Защитника Отечества – это не только праздник военных.  Это день, когда мы вспоминаем о подвигах наших дедов и прадедов, о мужестве и стойкости русского народа.  Это день, когда мы говорим слова благодарности всем тем, кто посвятил свою жизнь служению Отчизне.  Это день, когда мы желаем мира и благополучия нашей стране и всем ее гражданам.
+        </p>
+
+         <div class="row mt-4">
+            <div class="col-md-6">
+                <h3>Интересные факты о 23 февраля:</h3>
+                <ul>
+                    <li>Изначально праздник назывался Днем Красной Армии.</li>
+                    <li>Дата 23 февраля связана с первыми боями РККА в 1918 году.</li>
+                    <li>В советское время в этот день проводились военные парады.</li>
+                    <li>После распада СССР праздник был переименован в День Защитника Отечества.</li>
+                    <li>Сегодня это день чествования всех мужчин, а не только военных.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/2.jpg" alt="История праздника" class="img-fluid rounded">  <!-- замена на подходящую картинку -->
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container mt-5 fade-in" id="carouselHeroes">
+        <br>
+        <h2 class="text-center">Герои России и защитники Отечества</h2>
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/3.jpg" class="d-block w-100" alt="Александр Невский"> <!--замена фото-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Александр Невский</h5>
+                        <p class="white">Великий князь, полководец, святой. Одержал победу в Невской битве и Ледовом побоище.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Снимок экрана 2025-02-15 172834.png" class="d-block w-100" alt="Дмитрий Донской"> <!--замена фото-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Дмитрий Донской</h5>
+                        <p class="white">Великий князь московский, одержал победу в Куликовской битве.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/8.jpg" class="d-block w-100" alt="Георгий Жуков"> <!--замена фото-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Георгий Жуков</h5>
+                        <p class="white">Маршал Советского Союза, выдающийся полководец Великой Отечественной войны.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/9.webp" class="d-block w-100" alt="Алексей Маресьев"> <!--замена фото-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Алексей Маресьев</h5>
+                        <p class="white">Легендарный летчик, Герой Советского Союза, прототип героя книги "Повесть о настоящем человеке".</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+    </div>
+
+     <div class="container mt-5 fade-in" id="tanks">
+        <h2 class="text-center">Легендарная техника: Оружие Победы</h2>
+        <p class="text-center">
+            В этом разделе мы расскажем о самых известных образцах военной техники, которые внесли огромный вклад в защиту нашей Родины.
+        </p>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/11.webp" class="card-img-top" alt="Танк Т-34"> <!--замена фото-->
+                    <div class="card-body">
+                        <h5 class="card-title">Танк Т-34</h5>
+                        <p class="card-text">Средний танк Т-34 — советский танк периода Великой Отечественной войны, ставший самым массовым танком в мире. Отличался высокой маневренностью и мощным вооружением.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/12.jpg" class="card-img-top" alt="Катюша"> <!--замена фото-->
+                    <div class="card-body">
+                        <h5 class="card-title">БМ-13 "Катюша"</h5>
+                        <p class="card-text">Реактивная система залпового огня БМ-13 "Катюша" — легендарное оружие, наводившее ужас на врага своей мощью и разрушительной силой.</p>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/13.jpg" class="card-img-top" alt="Ил-2"> <!--замена фото-->
+                    <div class="card-body">
+                        <h5 class="card-title">Штурмовик Ил-2</h5>
+                        <p class="card-text">Штурмовик Ил-2 — советский самолет-штурмовик, прозванный "летающим танком" за свою броню и огневую мощь.</p>
+                        <br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <p>
+            Это лишь малая часть легендарной техники, которая помогала защищать нашу Родину.  Каждый образец военной техники – это результат труда тысяч людей, инженеров, конструкторов, рабочих, которые вкладывали все свои силы и знания в создание мощного оружия для защиты нашей страны.  Память об этих образцах техники и о людях, которые их создавали и использовали, навсегда останется в нашей истории.
+        </p>
+    </div>
+
+    <div class="container mt-5 fade-in" id="wishes">
+        <h2 class="text-center">Поздравления с 23 Февраля</h2>
+        <p class="text-center">
+            Выберите поздравление для своих родных и близких!
+        </p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Поздравление для друга</h5>
+                        <p class="card-text">
+                            Дорогой друг! Поздравляю тебя с Днем Защитника Отечества! Желаю тебе крепкого здоровья, успехов во всех начинаниях, мирного неба над головой и всегда оставаться таким же надежным и верным товарищем!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Поздравление для отца</h5>
+                        <p class="card-text">
+                            Любимый папа! Поздравляю тебя с 23 Февраля! Ты для меня настоящий герой, пример мужества и силы. Желаю тебе здоровья, долгих лет жизни, радости и гордости за своих детей!
+                        </p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Поздравление для коллеги</h5>
+                        <p class="card-text">
+                            Уважаемый коллега! Поздравляю Вас с Днем Защитника Отечества! Желаю Вам профессиональных успехов, карьерного роста, здоровья и благополучия!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Общее поздравление</h5>
+                        <p class="card-text">
+                            С Днем Защитника Отечества! Желаем всем крепкого здоровья, мужества, стойкости духа, мира и добра! Пусть в ваших домах всегда царят тепло и уют!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            &copy; 2024 День Защитника Отечества. Все права защищены.
+            <p class="white2">Сайт сделал Анисимов Сергей</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeInElements = document.querySelectorAll('.fade-in');
+            fadeInElements.forEach(element => {
+                element.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
